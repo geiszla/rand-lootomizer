@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
-    "release": "pkg dist/index.js --output dist/rand_lootomizer --targets linux,macos,win"
+    "release": "pkg dist/index.js --output dist/rand-lootomizer --targets linux,macos,win"
   },
   "dependencies": {
     "bluebird": "^3.5.5",
