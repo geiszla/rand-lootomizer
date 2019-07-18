@@ -1,6 +1,6 @@
 # Rand Lootomizer
 
-A loot table randomizer inspired by [SethBling's](https://www.youtube.com/watch?v=3JEXAZOrykQ), but modifies the loots a bit, so that the game is statistically probable to be finishable by removing the `killed_by_player` conditions from items. This way they still drop something even if they are blocks/chests/etc.
+A loot table randomizer inspired by [SethBling's](https://www.youtube.com/watch?v=3JEXAZOrykQ), but modifies the loots a bit, so that the game is statistically guaranteed to be finishable. By removing the `killed_by_player` conditions from items, we can make sure they drop something even if they are blocks/chests/etc.
 
 ## Get Started
 
