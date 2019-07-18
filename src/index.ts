@@ -36,17 +36,6 @@ const fs = (nativeFs as IPromisifiedFs);
             delete currentPool.conditions;
           }
         }
-
-        if (!currentPool.conditions) {
-          const samePool = loot.pools.slice(0, i).filter(pool => !pool.conditions
-            && _.isEqual(pool.rolls, currentPool.rolls)
-            && _.isEqual(pool.bonus_rolls, currentPool.bonus_rolls))[0];
-
-          if (samePool) {
-            samePool.entries = samePool.entries.concat(currentPool.entries);
-            loot.pools.splice(i, 1);
-          }
-        }
       }
     }
   });
