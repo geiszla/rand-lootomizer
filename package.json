@@ -6,6 +6,11 @@
   "repository": "https://github.com/geiszla/randomizer-plus-plus.git",
   "author": "András Geiszl",
   "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "release": "pkg dist/index.js --output dist/rand_lootomizer --targets linux,macos,win"
+  },
   "dependencies": {
     "bluebird": "^3.5.5",
     "lodash": "^4.17.14",
