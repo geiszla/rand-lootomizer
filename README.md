@@ -4,7 +4,7 @@ A loot table randomizer inspired by [SethBling's](https://www.youtube.com/watch?
 
 ## Get Started
 
-1. Download a binary for you system from [Releases](https://github.com/geiszla/rand-lootomizer/releases)
+1. Download a binary for your system from [Releases](https://github.com/geiszla/rand-lootomizer/releases)
 2. Put the loot table directory (`loot_table`) in the same directory, where the binary is
 3. Run the binary
 
